@@ -1,15 +1,9 @@
 # voltpack
 
-To install dependencies:
+Bundler on top of Bun. **Not implemented yet.** Read [VISION.md](./VISION.md) for the intended product: one `voltpack.config.ts` / `voltpack.config.js`, no `bunfig.toml`, and app-root resolve so linked/`file:` packages do not load a second copy of Sinwan (or other singleton peers).
 
 ```bash
 bun install
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Do not start implementation from this stub until asked.
